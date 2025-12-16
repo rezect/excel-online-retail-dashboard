@@ -4,16 +4,16 @@
 
 ## Статус спринтов
 
-**Done:** Sprint 0-3
+**Done:** Sprint 0-4
 
-**In progress:** Sprint 4
+**In progress:** Sprint 5
 
-**Planned:** Sprint 5+
+**Planned:** Sprint 6+
 
 ## Что внутри
-- (планируется) Обновляемый ETL в Power Query: импорт, типизация, очистка, вычисляемые поля.
-- (планируется) Модель данных (звезда) в Excel Data Model/Power Pivot: факт продаж + измерения (Date/Product/Customer/Country).
-- (планируется) DAX‑меры для KPI и аналитики по времени, товарам и клиентам.
+- Обновляемый ETL в Power Query: импорт, типизация, очистка, вычисляемые поля.
+- Модель данных (звезда) в Excel Data Model/Power Pivot: факт продаж + измерения (Date/Product/Customer/Country).
+- DAX‑меры для KPI и аналитики по времени, товарам и клиентам.
 - (планируется) Отчётные листы:
   - `Dashboard` — основные KPI и визуализации.
   - `Customers` — клиентская аналитика (в т.ч. RFM).
