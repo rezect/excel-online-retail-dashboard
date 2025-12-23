@@ -4,11 +4,11 @@
 
 ## Статус спринтов
 
-**Done:** Sprint 0-6
+**Done:** Sprint 0-7
 
-**In progress:** Sprint 7
+**In progress:** Sprint 8
 
-**Planned:** Sprint 8-9
+**Planned:** Sprint 9
 
 ## Что внутри
 - Обновляемый ETL в Power Query: импорт, типизация, очистка, вычисляемые поля.
