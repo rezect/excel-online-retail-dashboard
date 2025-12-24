@@ -2,14 +2,6 @@
 
 Дашборд и аналитическая модель в Excel для транзакций интернет‑магазина на датасете UCI Online Retail (2010–2011). Данные содержат строки позиций в инвойсах; отмены помечаются InvoiceNo, начинающимся с "C", валюта цен — фунты стерлингов.
 
-## Статус спринтов
-
-**Done:** Sprint 0-9
-
-**In progress:** ---
-
-**Planned:** ---
-
 ## Что внутри
 - Обновляемый ETL в Power Query: импорт, типизация, очистка, вычисляемые поля.
 - Модель данных (звезда) в Excel Data Model/Power Pivot: факт продаж + измерения (Date/Product/Customer/Country).
@@ -26,7 +18,7 @@
 - Какие клиенты приносят больше всего денег и как выглядят сегменты по поведению (RFM)?
 
 ## Источник данных
-- Dataset: **UCI Machine Learning Repository — Online Retail**.
+- Dataset: [**UCI Machine Learning Repository — Online Retail**](https://archive.ics.uci.edu/dataset/352/online+retail).
 - Состав полей (основные): InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country.
 - Правило отмен: InvoiceNo начинается с "C".
 - Лицензия датасета: CC BY 4.0 (см. страницу набора данных).
@@ -69,11 +61,11 @@
 Подробный план развития: `docs/sprint-plan.md`.
 
 ## Скриншоты
-![Главный Дашборд](https://github.com/rezect/excel-online-retail-dashboard/tree/main/imgs/01_dashboard.png)
+![Главный Дашборд](https://github.com/rezect/excel-online-retail-dashboard/blob/main/imgs/01_dashboard.png?raw=true)
 
-![Пользовательский Дашборд](https://github.com/rezect/excel-online-retail-dashboard/tree/main/imgs/02_customers.png)
+![Пользовательский Дашборд](https://github.com/rezect/excel-online-retail-dashboard/blob/main/imgs/02_customers.png?raw=true)
 
-![Продуктовый Дашборд](https://github.com/rezect/excel-online-retail-dashboard/tree/main/imgs/03_products.png)
+![Продуктовый Дашборд](https://github.com/rezect/excel-online-retail-dashboard/blob/main/imgs/03_products.png?raw=true)
 
 ## Лицензия проекта
 Код/шаблон Excel: MIT.  
