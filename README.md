@@ -4,17 +4,17 @@
 
 ## Статус спринтов
 
-**Done:** Sprint 0-7
+**Done:** Sprint 0-9
 
-**In progress:** Sprint 8
+**In progress:** ---
 
-**Planned:** Sprint 9
+**Planned:** ---
 
 ## Что внутри
 - Обновляемый ETL в Power Query: импорт, типизация, очистка, вычисляемые поля.
 - Модель данных (звезда) в Excel Data Model/Power Pivot: факт продаж + измерения (Date/Product/Customer/Country).
 - DAX‑меры для KPI и аналитики по времени, товарам и клиентам.
-- (планируется) Отчётные листы:
+- Отчётные листы:
   - `Dashboard` — основные KPI и визуализации.
   - `Customers` — клиентская аналитика (в т.ч. RFM).
   - `Products` — товарная аналитика (в т.ч. ABC/Pareto).
@@ -61,13 +61,23 @@
 ```
 
 ## Допущения и ограничения
-- Отмены определяются по признаку InvoiceNo="C…"; это влияет на подсчёт заказов и “net” метрики.
+- Отмены определяются по признаку InvoiceNo="C…", отрицательной Quantity или UnitPrice; это влияет на подсчёт заказов и “net” метрики.
 - UnitPrice в фунтах стерлингов; конвертация валюты не выполняется.
 - Качество данных (пропуски CustomerID и др.) отражается на листе `Data_Quality`.
 
 ## Roadmap
 Подробный план развития: `docs/sprint-plan.md`.
 
+## Скриншоты
+**Главный дашборд**
+![Главный Дашборд](https://github.com/rezect/excel-online-retail-dashboard/imgs/01_dashboard.png)
+
+**Пользовательский дашборд**
+![Пользовательский Дашборд](https://github.com/rezect/excel-online-retail-dashboard/imgs/02_customers.png)
+
+**Продуктовый дашборд**
+![Продуктовый Дашборд](https://github.com/rezect/excel-online-retail-dashboard/imgs/03_products.png)
+
 ## Лицензия проекта
-Код/шаблон Excel: (укажите свою лицензию, например MIT).  
+Код/шаблон Excel: MIT.  
 Данные: UCI Online Retail, условия — CC BY 4.0 (см. источник).
