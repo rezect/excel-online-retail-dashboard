@@ -70,13 +70,13 @@
 
 ## Скриншоты
 **Главный дашборд**
-![Главный Дашборд](https://github.com/rezect/excel-online-retail-dashboard/imgs/01_dashboard.png)
+![Главный Дашборд](https://github.com/rezect/excel-online-retail-dashboard/tree/main/imgs/01_dashboard.png)
 
 **Пользовательский дашборд**
-![Пользовательский Дашборд](https://github.com/rezect/excel-online-retail-dashboard/imgs/02_customers.png)
+![Пользовательский Дашборд](https://github.com/rezect/excel-online-retail-dashboard/tree/main/imgs/02_customers.png)
 
 **Продуктовый дашборд**
-![Продуктовый Дашборд](https://github.com/rezect/excel-online-retail-dashboard/imgs/03_products.png)
+![Продуктовый Дашборд](https://github.com/rezect/excel-online-retail-dashboard/tree/main/imgs/03_products.png)
 
 ## Лицензия проекта
 Код/шаблон Excel: MIT.  
