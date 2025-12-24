@@ -69,13 +69,10 @@
 Подробный план развития: `docs/sprint-plan.md`.
 
 ## Скриншоты
-**Главный дашборд**
 ![Главный Дашборд](https://github.com/rezect/excel-online-retail-dashboard/tree/main/imgs/01_dashboard.png)
 
-**Пользовательский дашборд**
 ![Пользовательский Дашборд](https://github.com/rezect/excel-online-retail-dashboard/tree/main/imgs/02_customers.png)
 
-**Продуктовый дашборд**
 ![Продуктовый Дашборд](https://github.com/rezect/excel-online-retail-dashboard/tree/main/imgs/03_products.png)
 
 ## Лицензия проекта
